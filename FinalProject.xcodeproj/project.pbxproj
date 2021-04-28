@@ -11,6 +11,11 @@
 		3F339E082639A419009EBD37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F339E072639A419009EBD37 /* ContentView.swift */; };
 		3F339E0A2639A41A009EBD37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F339E092639A41A009EBD37 /* Assets.xcassets */; };
 		3F339E0D2639A41A009EBD37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F339E0C2639A41A009EBD37 /* Preview Assets.xcassets */; };
+		3F339E162639A5DD009EBD37 /* Orders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F339E152639A5DD009EBD37 /* Orders.swift */; };
+		3F339E192639A612009EBD37 /* AddOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F339E182639A612009EBD37 /* AddOrder.swift */; };
+		3F339E1C2639A645009EBD37 /* OrderDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F339E1B2639A645009EBD37 /* OrderDetail.swift */; };
+		3F339E1F2639A671009EBD37 /* Expenses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F339E1E2639A671009EBD37 /* Expenses.swift */; };
+		3F339E222639A6A6009EBD37 /* AddExpense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F339E212639A6A6009EBD37 /* AddExpense.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		3F339E092639A41A009EBD37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F339E0C2639A41A009EBD37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F339E0E2639A41A009EBD37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F339E152639A5DD009EBD37 /* Orders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orders.swift; sourceTree = "<group>"; };
+		3F339E182639A612009EBD37 /* AddOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddOrder.swift; sourceTree = "<group>"; };
+		3F339E1B2639A645009EBD37 /* OrderDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDetail.swift; sourceTree = "<group>"; };
+		3F339E1E2639A671009EBD37 /* Expenses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expenses.swift; sourceTree = "<group>"; };
+		3F339E212639A6A6009EBD37 /* AddExpense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpense.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,11 @@
 			children = (
 				3F339E052639A419009EBD37 /* FinalProjectApp.swift */,
 				3F339E072639A419009EBD37 /* ContentView.swift */,
+				3F339E212639A6A6009EBD37 /* AddExpense.swift */,
+				3F339E1E2639A671009EBD37 /* Expenses.swift */,
+				3F339E1B2639A645009EBD37 /* OrderDetail.swift */,
+				3F339E182639A612009EBD37 /* AddOrder.swift */,
+				3F339E152639A5DD009EBD37 /* Orders.swift */,
 				3F339E092639A41A009EBD37 /* Assets.xcassets */,
 				3F339E0E2639A41A009EBD37 /* Info.plist */,
 				3F339E0B2639A41A009EBD37 /* Preview Content */,
@@ -138,7 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F339E222639A6A6009EBD37 /* AddExpense.swift in Sources */,
+				3F339E1F2639A671009EBD37 /* Expenses.swift in Sources */,
+				3F339E1C2639A645009EBD37 /* OrderDetail.swift in Sources */,
+				3F339E162639A5DD009EBD37 /* Orders.swift in Sources */,
 				3F339E082639A419009EBD37 /* ContentView.swift in Sources */,
+				3F339E192639A612009EBD37 /* AddOrder.swift in Sources */,
 				3F339E062639A419009EBD37 /* FinalProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
